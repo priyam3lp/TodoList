@@ -1,0 +1,44 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .backdrop form{
+    background-color: rgb(88, 2, 2);
+    padding: 5rem;
+    border-radius: 10px;
+  }
+
+  .backdrop input{
+    height: 2rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .backdrop button{
+    margin: 0 1rem;
+    padding: 0.5rem;
+    width: 8rem;
+    background-color: white;
+    color: brown;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+ 
+
+  @media(max-width: 600px){
+    .backdrop input{
+      width: 20rem;
+    }
+  }

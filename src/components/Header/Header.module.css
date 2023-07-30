@@ -1,0 +1,7 @@
+.header{
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(75, 1, 1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

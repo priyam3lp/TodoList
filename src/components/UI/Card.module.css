@@ -1,0 +1,38 @@
+.blocks{
+    border: 2px solid black;
+    width: 15rem;
+   background-color: rgb(255, 247, 200);
+   color: black;
+   border-radius: 10px;
+}
+.blocks h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.blocks div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.blocks li{
+    list-style: square;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.blocks button{
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: rgb(88, 8, 8);
+    color: white;
+    border-color: white
+}
+
+@media(max-width: 800px){
+    .blocks{
+       margin-bottom: 1rem;
+    }
+}
+
